@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "Eliki"
-title: "「Eli」zabeth Ao「ki」"
+author: "「Eli」zabeth Ao「ki」"
+title: "「Eliki」"
 description: "Blog and website of Eliki, blogging mainly for test page. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+keywords: "personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
@@ -148,7 +148,7 @@ social:
   - title: "facebook"
     url: "https://facebook.com/"
   # title: "twitter"
-    url: "https://twitter.com/"
+  #  url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/aokice"
   # title: "bitcoin"
