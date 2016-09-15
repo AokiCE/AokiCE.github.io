@@ -123,8 +123,8 @@ events:
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
-  date: "September 1990"
-  description: "Was born!"
+    date: "September 1990"
+    description: "Was born!"
 
 ###########
 # Contact #
