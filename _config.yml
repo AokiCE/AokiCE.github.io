@@ -29,7 +29,7 @@ force-https: True
 #############
 
 lang: "en"
-author: "「Eli」zabeth Ao「ki」"
+author: "Elizabeth Aoki"
 title: "「Eliki」"
 description: "Blog and website of Eliki, blogging mainly for test page. Opinions expressed are mine."
 keywords: "personal, jekyll, theme"
@@ -55,9 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-  - text: "An old pond, a frog jumps in, an echo of water"
+  - text: "Welcome to my personal website!!"
+  - text: "「Eli」「ki」"
+  - text: "「Eli」zabeth Ao「ki」"
+  - text: "個人サイトへようこそ！"
 
 me-img: "/img/jetpacktocat.png"
 
