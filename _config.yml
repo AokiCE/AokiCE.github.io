@@ -65,7 +65,7 @@ me-img: "/img/tree.png"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#B8860B"
+color-browser: "#000000"
 apple-status-bar-style: "black"
 
 ################
