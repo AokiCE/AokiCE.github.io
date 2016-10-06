@@ -161,11 +161,11 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: $intro-text-color;
+    color: darkred;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
-    background-color: $header-background-color;
+    background-color: darkorange;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -310,7 +310,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: $social-buttons-color;
+    color: darkred;
     background-color: #222;
 
     -webkit-transition: all .3s;
@@ -321,7 +321,7 @@ ul.social-buttons li a {
     &:focus,
     &:active {
         color: #222;
-        background-color: darken($social-buttons-color, 10%);
+        background-color: darken(darkred, 10%);
     }
 }
 
