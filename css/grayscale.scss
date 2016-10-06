@@ -66,15 +66,17 @@ div {
   user-select: text;
 }
 
+/* typing out text that moves. */
+
 a {
-    color: lightpink;
+    color: orange;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken(lightpink,20%);
+        color: darken(orange,20%);
     }
 }
 
