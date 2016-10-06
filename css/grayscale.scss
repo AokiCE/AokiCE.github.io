@@ -67,14 +67,14 @@ div {
 }
 
 a {
-    color: deeppink;
+    color: lightpink;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken(deeppink,20%);
+        color: darken(lightpink,20%);
     }
 }
 
@@ -143,14 +143,14 @@ a {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
-        background: $navbar-lg-background;
+        background: darkorange;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: $navbar-lg-collapse-background-color;
-            border-bottom: 1px solid rgba($font-color, 0.3);
+            background: orange;
+            border-bottom: 1px solid rgba(darkred, 0.3);
         }
     }
 }
@@ -161,7 +161,7 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: darkred;
+    color: red;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
@@ -178,7 +178,7 @@ a {
         }
         .intro-text {
             font-size: 18px;
-            @if $navbar-text-shadow {
+            @if darkred {
                 text-shadow: 1px 0 1px #000;
             }
         }
@@ -310,7 +310,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: darkred;
+    color: lightpink;
     background-color: #222;
 
     -webkit-transition: all .3s;
