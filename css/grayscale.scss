@@ -83,7 +83,7 @@ a {
     border-bottom: 1px solid rgba(orange, 0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: gold;
+    background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -106,7 +106,7 @@ a {
     }
     a {
         color: yellow;
-        @if darkred{
+        @if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
         }
     }
@@ -120,18 +120,18 @@ a {
                 &:hover {
                     /* color: rgba($font-color, 0.8); */
                     outline: none;
-                    background-color: rgba(gold, 0.3);
+                    background-color: rgba($font-color, 0.3);
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                      background-color: rgba(gold, 0.3);
+                      background-color: rgba($font-color, 0.3);
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba(gold, 0.3);
+                    background-color: rgba($font-color, 0.3);
                     &:hover {
                         color: gold;
                     }
