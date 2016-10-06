@@ -120,18 +120,18 @@ a {
                 &:hover {
                     /* color: rgba($font-color, 0.8); */
                     outline: none;
-                    background-color: rgba(orange, 0.3);
+                    background-color: rgba(gold, 0.3);
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                      background-color: rgba(orange, 0.3);
+                      background-color: rgba(gold, 0.3);
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba(orange, 0.3);
+                    background-color: rgba(gold, 0.3);
                     &:hover {
                         color: gold;
                     }
@@ -321,7 +321,7 @@ ul.social-buttons li a {
     &:focus,
     &:active {
         color: #222;
-        background-color: darken(darkred, 10%);
+        background-color: darken(yellow, 10%);
     }
 }
 
