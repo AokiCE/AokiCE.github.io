@@ -69,14 +69,14 @@ div {
 /* typing out text that moves. */
 
 a {
-    color: orange;
+    color: teal;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken(orange,20%);
+        color: darken(teal,20%);
     }
 }
 
