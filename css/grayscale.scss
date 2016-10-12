@@ -312,8 +312,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: lightpink;
-    background-color: #222;
+    color: orange;
+    background-color: #B22222;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -322,7 +322,7 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: #222;
+        color: #B22222;
         background-color: darken(yellow, 10%);
     }
 }
