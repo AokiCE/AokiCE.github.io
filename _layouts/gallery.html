@@ -4,10 +4,12 @@
 <html lang="{{ site.lang }}">
 
   {% include head.html %}
-
+  {% include navigation.html %}
+  
 <body>
-
-    {% include navigation.html %}
+            
+  {{ page.content | markdownify }}
+  
 
 <div class="responsive">
   <div class="img">
@@ -53,7 +55,7 @@
   <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
 </div>
 
-            {{ page.content | markdownify }}
+
   
 </body>
 </html>
