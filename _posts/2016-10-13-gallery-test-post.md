@@ -1,6 +1,6 @@
 ---
-layout: gallery
-section-type: gallerypost
+layout: blog
+section-type: blog
 title: Gallery Test post
 ---
 
