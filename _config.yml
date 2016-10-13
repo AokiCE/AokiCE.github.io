@@ -124,7 +124,6 @@ events:
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
-    description: "Was born!!"
 
 ###########
 # Contact #
