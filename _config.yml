@@ -60,6 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Just a test page, nothing great."
   - text: "「Eli」zabeth Ao「ki」"
   - text: "個人サイトへようこそ！"
+  - text: "This thing is so complicated that I can't add gallery"
 
 me-img: "/img/tree.png"
 
