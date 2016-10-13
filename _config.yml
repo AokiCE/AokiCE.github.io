@@ -94,9 +94,9 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
+email-share: False
+fb-share: False
+twitter-share: False
 linkedin-share: false
 reddit-share: false
 google-plus-share: false
@@ -108,6 +108,13 @@ vkontakte-share: false
 disqus-shortname: ""
 
 syntax-highlight: True
+
+############
+# Gallery #
+############
+
+
+
 
 ############
 # Timeline #
@@ -181,6 +188,7 @@ keybase-in-footer: false
 pages_list:
   About: 'about'
   Blog: 'latest-post'
+  Gallery: 'gallery'
   Timeline: 'timeline'
   Contact: 'contact'
 
