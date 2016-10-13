@@ -14,8 +14,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: darkred;
-    background-color: darkorange;
+    color: $font-color;
+    background-color: $primary-color;
 }
 
 html {
@@ -66,23 +66,21 @@ div {
   user-select: text;
 }
 
-/* typing out text that moves. */
-
 a {
-    color: teal;
+    color: $secondary-color;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken(teal,20%);
+        color: darken($secondary-color,20%);
     }
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(orange, 0.3);
+    border-bottom: 1px solid rgba($font-color, 0.3);
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
@@ -94,7 +92,7 @@ a {
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: gold;
+        color: $navbar-color;
         &:focus,
         &:active {
             outline: none;
@@ -107,7 +105,7 @@ a {
         }
     }
     a {
-        color: yellow;
+        color: $navbar-color;
         @if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
         }
@@ -135,7 +133,7 @@ a {
                 a {
                     background-color: rgba($font-color, 0.3);
                     &:hover {
-                        color: gold;
+                        color: $navbar-color;
                     }
                 }
             }
@@ -145,14 +143,14 @@ a {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
-        background: orange;
+        background: $navbar-lg-background;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: darkorange;
-            border-bottom: 1px solid rgba(darkorange, 0.3);
+            background: $navbar-lg-collapse-background-color;
+            border-bottom: 1px solid rgba($font-color, 0.3);
         }
     }
 }
@@ -163,11 +161,11 @@ a {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: palegreen;
+    color: $intro-text-color;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
-    background-color: orange;
+    background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -180,7 +178,7 @@ a {
         }
         .intro-text {
             font-size: 18px;
-            @if yellow {
+            @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
         }
@@ -312,8 +310,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: orange;
-    background-color: #B22222;
+    color: $social-buttons-color;
+    background-color: #222;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -322,8 +320,8 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: #B22222;
-        background-color: darken(teal, 10%);
+        color: #222;
+        background-color: darken($social-buttons-color, 10%);
     }
 }
 
