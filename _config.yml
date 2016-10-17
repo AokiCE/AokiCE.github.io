@@ -140,7 +140,7 @@ email: "your@email.here"
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "Elizabeth Aoki is a quiet person. She lives in Flatland, working on 3D and media animation projects."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/tree.png"
 
 ##################
 # Social Buttons #
