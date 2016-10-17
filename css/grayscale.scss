@@ -91,7 +91,7 @@ a {
 
     .navbar-toggle {
         padding: 4px 6px;
-        font-size: 18px;
+        font-size: 20px;
         color: $navbar-color;
         &:focus,
         &:active {
@@ -177,7 +177,7 @@ a {
             font-size: 40px;
         }
         .intro-text {
-            font-size: 20px;
+            font-size: 24px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
