@@ -94,9 +94,9 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: False
-fb-share: False
-twitter-share: False
+email-share: false
+fb-share: false
+twitter-share: false
 linkedin-share: false
 reddit-share: false
 google-plus-share: false
