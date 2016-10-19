@@ -17,8 +17,7 @@
 
         {% include swipe-instructions.html %}
 
-        {{ page.content | markdownify | post.image }}
-          
+        {{ page.content | markdownify }}
 
         <div>
           {% for post in paginator.posts %}
