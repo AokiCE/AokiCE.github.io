@@ -32,11 +32,11 @@
             </small>
           </h4>
           
-          {% if page.image %}
+          {% for image in page.image %}
           <div class="image"> 
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}/img"/>
+            <img src="{{site.baseurl}}/img"/>
           </div>
-          {% endif%}
+          {% endfor%}
 
           {{ page.content | markdownify }}
 
