@@ -455,7 +455,11 @@ body {
 
 .PageNavigation a {
   display: block;
-  float:right; to .next class
+  width: 50%;
+  float: left;
   margin: 1em 0;
 }
 
+.PageNavigation .next {
+  text-align: right;
+}
