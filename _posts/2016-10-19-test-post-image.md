@@ -1,10 +1,10 @@
 ---
 layout: post
 section-type: post
-title: Gallery Test post
+title: Photo Test post
 image: photo-gallery/nature/pic04.jpg
 ---
 
 Testing out the images in posts...
-So far only can use 1 image per post.
+So it uses a featured photo image for post, so only 1 unless typed in.
 Still will not come up in preview.
