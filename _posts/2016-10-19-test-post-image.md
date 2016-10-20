@@ -1,6 +1,6 @@
 ---
-layout: blog
-section-type: blog
+layout: post
+section-type: post
 title: Gallery Test post
 image: photo-gallery/nature/pic04.jpg
 ---
