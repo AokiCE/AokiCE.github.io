@@ -18,11 +18,6 @@
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
           
-              {% assign foundImage = 0 %}
-    {% assign images = post.content | split:"<img>" %}
-    {% for image in images %}
-      {% if image contains 'src' %}
-
           {% if foundImage == 0 %}
               {% assign html = image | split:"/>" | first %}
               {% assign tags = html | split:" " %}
