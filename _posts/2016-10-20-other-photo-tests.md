@@ -1,8 +1,8 @@
 ---
 layout: post
 section-type: post
-title: Photo Test post
-image: photo-gallery/nature/pic04.jpg
+title: Extra Photo Test post
+image: photo-gallery/nature/pic03.jpg
 ---
 
 Wonder what will happen with this test...
