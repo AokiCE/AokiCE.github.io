@@ -5,15 +5,15 @@ galleries:
  1:
    # row one in gallery one
    -
-     - { url: 'pic02.jpg', alt: 'alt 1'}
+     - { url: 'img/photo-gallery/nature/pic02.jpg', alt: 'alt 1'}
    # row two in gallery one
    -
-     - { url: 'pic03.jpg', alt: 'alt 2'}
-     - { url: 'pic04.jpg', alt: 'alt 3'}
+     - { url: 'img/photo-gallery/nature/pic02.jpg', alt: 'alt 2'}
+     - { url: 'img/photo-gallery/nature/pic03.jpg', alt: 'alt 3'}
 
  # gallery number two
  2:
   # row one in gallery two
    -
-     - { url: 'pic05.jpg', alt: 'alt 4'}
-     - { url: 'pic06.jpg', alt: 'alt 5'}
+     - { url: 'img/photo-gallery/nature/pic04.jpg', alt: 'alt 4'}
+     - { url: 'img/photo-gallery/nature/pic05.jpg', alt: 'alt 5'}
