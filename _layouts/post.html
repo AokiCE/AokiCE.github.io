@@ -40,6 +40,8 @@
 
           {{ page.content | markdownify }}
 
+          {% include next-previous.html %}
+          
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}
