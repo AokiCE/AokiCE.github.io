@@ -19,7 +19,7 @@
         </h4>
           
                {% assign foundImage = 0 %}
-    {% assign images = post.content | split:"<img>" %}
+    {% assign images = post.image | split:"<img>" %} 
     {% for image in images %}
       {% if image contains 'src' %}
 
