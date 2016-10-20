@@ -19,7 +19,7 @@
         </h4>
           
         {% if post.image %}
-	<img src="{{site.baseurl}}/img/{{ post.image }}" style="width: 50%" align="center" />
+	<img src="{{site.baseurl}}/img/{{ post.image }}" style="width: 30%" align="center" />
 	{% endif %}
 
         {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
