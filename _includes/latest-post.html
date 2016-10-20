@@ -18,8 +18,8 @@
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4>
           
-        {% if page.image %}
-	<img src="{{site.baseurl}}/img/{{ page.image }}" style="height: 50%" "width: 50%" align="center" />
+        {% if post.image %}
+	<img src="{{site.baseurl}}/img/{{ post.image }}" style="height: 50%" align="center" />
 	{% endif %}
 
         {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
