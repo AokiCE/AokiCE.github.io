@@ -31,6 +31,12 @@
               {% endfor %}
             </small>
           </h4>
+                    
+          <div>
+          {% for image in page.image %}
+            <img src="{{site.baseurl}}/img/{{ page.image }}"/>
+          {% endfor%}
+          </div>
 
           {{ page.content | markdownify }}
 
