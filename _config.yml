@@ -56,7 +56,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Welcome to my personal website!!"
-  - text: "Happy Halloween!""
+  - text: "Happy Halloween!"
   - text: "「Eli」zabeth Ao「ki」"
   - text: "個人サイトへようこそ！"
 
