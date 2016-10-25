@@ -1,0 +1,20 @@
+---
+layout: page
+title: Gallery Test
+---
+
+<div class="box alt">
+	<div class="row 50% uniform">
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic05.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic03.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="img/photo-gallery/nature/pic07.jpg" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic03.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic07.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="img/photo-gallery/nature/pic05.jpg" alt="" /></span></div>
+		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic07.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="img/photo-gallery/nature/pic05.jpg" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="img/photo-gallery/nature/pic03.jpg" alt="" /></span></div>
+	</div>
+</div>
