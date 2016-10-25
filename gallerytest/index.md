@@ -12,5 +12,9 @@ title: Gallery Test
 		<div class="4u"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
 		<div class="4u$"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
 		<!-- Break -->
+		<div class="4u"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
+		<div class="4u"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
+		<div class="4u$"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
+		<!-- Break -->
 	</div>
 </div>
