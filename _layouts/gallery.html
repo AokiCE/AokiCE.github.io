@@ -6,6 +6,8 @@
 
   {% include head.html %}
 
+            {{ page.content | markdownify }}
+  
   <body>
 
     {% include navigation.html %}
@@ -19,8 +21,6 @@
             <img src="{{site.baseurl}}/img/{{ page.image }}"/>
           {% endfor%}
           </div>
-
-          {{ page.content | markdownify }}
 
           <hr />
 
