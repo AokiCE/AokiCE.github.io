@@ -182,7 +182,7 @@ pages_list:
   Blog: 'latest-post'
   Test: 'test'
   # Timeline: 'timeline'
-  Contact: 'contact'
+  # Contact: 'contact'
 
 # Exclusion list from the generated _site
 
