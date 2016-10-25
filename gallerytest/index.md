@@ -3,6 +3,8 @@ layout: gallery
 title: Gallery Test
 ---
 
+## Gallery Test
+
 <div class="box alt">
 	<div class="row 50% uniform">
 		<div class="4u"><span class="image fit"><img src="{{site.baseurl}}/img/photo-gallery/nature/pic05.jpg" alt="" /></span></div>
