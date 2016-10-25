@@ -11,14 +11,7 @@
     {% include navigation.html %}
 
     <section id="post" class="container content-section text-center">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-                    
-          <div>
-          {% for image in page.image %}
-            <img src="{{site.baseurl}}/img/{{ page.image }}"/>
-          {% endfor%}
-          </div>
+
           
                   {{ page.content | markdownify }}
 
@@ -32,8 +25,7 @@
             </p>
           </div>
           {% endif%}
-        </div>
-      </div>
+
     </section>
 
     {% include footer.html %}
