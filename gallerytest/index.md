@@ -7,7 +7,7 @@ title: Gallery Test
 
 
 <div id="post" class="box alt">
-	<div class="row 50% uniform">
+	<div class="row uniform">
 		<div class="4u"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
 		<div class="4u"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
 		<div class="4u$"><span class="image fit"><img src="https://aokice.github.io/img/photo-gallery/nature/pic05.jpg" style="width: 30%"/></span></div>
