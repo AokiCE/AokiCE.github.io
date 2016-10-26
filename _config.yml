@@ -180,7 +180,7 @@ keybase-in-footer: false
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Gallery: 'gallery'
+  Gallery: 'galleryhome'
   # Timeline: 'timeline'
   # Contact: 'contact'
 
